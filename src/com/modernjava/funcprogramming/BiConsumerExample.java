@@ -3,6 +3,7 @@ package com.modernjava.funcprogramming;
 import java.util.function.BiConsumer;
 
 public class BiConsumerExample {
+    //comment
     public static void main(String[] args) {
         //printing two numbers
         BiConsumer<Integer,Integer> biConsumer = (x,y) -> System.out.println("x: " + x + " y: " + y);
